@@ -1,0 +1,810 @@
+body {
+    margin: 0;
+    background: #fff;
+}/* contenedor */
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+}
+
+.pag {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+  }
+}
+.pag svg {
+    width: 100%;
+   height: auto;
+    display: block;
+    
+}
+
+/*pag 1*/
+<style>
+      .cls-1 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2-b {
+        stroke-width: 3.06px;
+      }
+
+      .cls-2-b, .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2-b, .cls-5 {
+        stroke: #a7a9ac;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-8 {
+        font-size: 21px;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
+        font-family: BebasNeue-Regular, 'Bebas Neue'; font-weight: 700;
+      }
+
+      .cls-8, .cls-9, .cls-12, .cls-13 {
+        fill: #a7aca9;
+      }
+
+      .cls-21 {
+        letter-spacing: .01em;
+      }
+
+      .cls-22 {
+        letter-spacing: 0em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        font-size: 35px;
+      }
+
+      .cls-26 {
+        fill: #0072bc;
+      }
+
+      .cls-27 {
+        fill: #241f59;
+      }
+
+      .cls-28 {
+        stroke: #e6e7e8;
+      }
+
+      .cls-28, .cls-29, .cls-30 {
+        fill: none;
+      }
+
+      .cls-31 {
+        letter-spacing: 0em;
+      }
+
+      .cls-32 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-33 {
+        fill: #283589;
+      }
+
+      .cls-10 {
+        font-size: 16px;
+      }
+
+      .cls-10, .cls-14, .cls-15, .cls-17, .cls-34, .cls-19, .cls-20 {
+        fill: #0089cf;
+      }
+
+      .cls-11 {
+        letter-spacing: .03em;
+      }
+
+      .cls-11, .cls-17, .cls-18 {
+        font-size: 28.51px;
+      }
+
+      .cls-11, .cls-18, .cls-35 {
+        fill: #ffcb05;
+      }
+
+      .cls-36 {
+        letter-spacing: 0em;
+      }
+
+      .cls-37 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        font-size: 14px;
+      }
+
+      .cls-38 {
+        fill: #afaeae;
+      }
+
+      .cls-39 {
+        fill: #f15a22;
+      }
+
+      .cls-40 {
+        letter-spacing: 0em;
+      }
+
+      .cls-41 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        font-size: 11px;
+      }
+
+      .cls-42 {
+        letter-spacing: 0em;
+      }
+
+      .cls-43 {
+        letter-spacing: 0em;
+      }
+
+      .cls-44 {
+        fill: #ef4123;
+      }
+
+      .cls-45 {
+        letter-spacing: 0em;
+      }
+
+      .cls-46 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-47 {
+        fill: #6d6e71;
+      }
+
+      .cls-48 {
+        fill: #ffc829;
+      }
+
+      .cls-49 {
+        letter-spacing: 0em;
+      }
+
+      .cls-50 {
+        letter-spacing: 0em;
+      }
+
+      .cls-51 {
+        letter-spacing: 0em;
+      }
+
+      .cls-52 {
+        letter-spacing: 0em;
+      }
+
+      .cls-53 {
+        fill: #00a6e9;
+      }
+
+      .cls-54 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-55 {
+        fill: #8b8e8c;
+      }
+
+      .cls-56 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-57 {
+        fill: #808285;
+      }
+
+      .cls-29, .cls-4, .cls-58 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-29, .cls-58 {
+        stroke-width: .11px;
+      }
+
+      .cls-14 {
+        font-size: 15.67px;
+      }
+
+      .cls-59 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-60 {
+        letter-spacing: 0em;
+      }
+
+      .cls-61 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        font-size: 12px;
+      }
+
+      .cls-16, .cls-62 {
+        fill: #231f20;
+      }
+
+      .cls-16, .cls-19 {
+        font-size: 10px;
+      }
+
+      .cls-63 {
+        letter-spacing: 0em;
+      }
+
+      .cls-64 {
+        letter-spacing: 0em;
+      }
+
+      .cls-65 {
+        fill: #f7941d;
+      }
+
+      .cls-66 {
+        letter-spacing: 0em;
+      }
+
+      .cls-67 {
+        letter-spacing: 0em;
+      }
+
+      .cls-68 {
+        fill: #676869;
+      }
+
+      .cls-69 {
+        fill: #ef4235;
+      }
+
+      .cls-70 {
+        letter-spacing: 0em;
+      }
+
+      .cls-71 {
+        letter-spacing: 0em;
+      }
+
+      .cls-72 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-73 {
+        letter-spacing: 0em;
+      }
+
+      .cls-74 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-75 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        stroke-width: .45px;
+      }
+
+      .cls-58 {
+        fill: #535655;
+      }
+
+      .cls-76 {
+        fill: #005baa;
+      }
+
+      .cls-77 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        stroke-width: 3.87px;
+      }
+
+      .cls-78 {
+        fill: #ee3124;
+      }
+
+      .cls-79 {
+        letter-spacing: 0em;
+      }
+      
+
+      .cls-80 {
+        letter-spacing: 0em;
+      }
+
+      .cls-81 {
+        fill: #010101;
+      }
+
+      .cls-82 {
+        letter-spacing: 0em;
+      }
+
+      .cls-83 {
+        fill: #58595b;
+      }
+
+      .cls-84 {
+        fill: #414042;
+      }
+
+      .cls-20 {
+        font-size: 8px;
+      }
+
+
+
+/*PAG 1*CORREGIDA*/
+.uuid-003ada97-23ae-4a9e-ac9b-934c90b129d4 {
+        letter-spacing: -.05em;
+      }
+
+      .uuid-8420ead5-ea8a-4b3f-add6-6eeb6f4cf1bc {
+        stroke-width: 3.06px;
+      }
+
+      .uuid-8420ead5-ea8a-4b3f-add6-6eeb6f4cf1bc, .uuid-0f088f6c-b086-47e6-b885-1f317395292d, .uuid-394004f5-896f-4f8d-bf28-404925c1237e, .uuid-991686a4-d808-4f07-a147-f14374b56133 {
+        fill: #fff;
+      }
+
+      .uuid-8420ead5-ea8a-4b3f-add6-6eeb6f4cf1bc, .uuid-991686a4-d808-4f07-a147-f14374b56133 {
+        stroke: #a7a9ac;
+      }
+
+      .uuid-246ba525-75c3-4805-8552-1c0429537ff0 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-42a5a6b0-e111-472b-b847-c1b20eee3565 {
+        font-size: 21px;
+      }
+
+      .uuid-42a5a6b0-e111-472b-b847-c1b20eee3565, .uuid-059c5704-bea7-4f20-b674-781af2117c08, .uuid-ebf5efa7-a986-46cd-aa61-df2d2cf38571, .uuid-d9423ec2-2625-4940-a05d-5f47a5882833, .uuid-1aed1cdf-460b-44d5-b72f-01b08cdb8300, .uuid-1c036200-91ad-4057-a997-757091666676, .uuid-77463f8a-121f-4f78-86e5-0eb8da0bf72f, .uuid-3403f749-3c55-43d7-8a2f-ea162cefe7c9, .uuid-1d3a3d3b-42bf-47b5-a013-330b3a48e350, .uuid-f88f5138-9354-4035-af5f-343b42d7d302, .uuid-17d479df-43be-49ba-a735-7abc1360599e, .uuid-a4533edb-d703-43f0-8f92-ebe4a413a27f, .uuid-f136e48a-2c10-47c5-93d1-ec6f7bd55db2 {
+        font-family: BebasNeue-Regular, 'Bebas Neue';
+        font-weight: 700;
+      }
+
+      .uuid-42a5a6b0-e111-472b-b847-c1b20eee3565, .uuid-059c5704-bea7-4f20-b674-781af2117c08, .uuid-1aed1cdf-460b-44d5-b72f-01b08cdb8300, .uuid-1c036200-91ad-4057-a997-757091666676 {
+        fill: #a7a9ac;
+      }
+
+      .uuid-2b130bba-8d55-4d3c-8915-882d5d794b5e {
+        letter-spacing: .01em;
+      }
+
+      .uuid-3a3760bd-a8f4-4720-b68e-fa4217673d74 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-9c97d5bc-00cb-451c-8da3-5d38ed9eed22 {
+        fill: url(#uuid-45933d80-e3b0-44ec-8969-3e9744016d8d);
+      }
+
+      .uuid-6d877079-8610-4da1-856f-88741fde3c30 {
+        letter-spacing: -.05em;
+      }
+
+      .uuid-248cc78d-a781-47fb-9ca9-15f0bb028716 {
+        letter-spacing: -.08em;
+      }
+
+      .uuid-2ce38191-892b-4fe8-8c5b-f1b32f8ffe22 {
+        fill: url(#uuid-3d64913e-b95b-4f56-92f1-7e6d253bd841);
+      }
+
+      .uuid-1e9ac937-44b8-400d-bf65-68c6624aa7c8 {
+        letter-spacing: -.03em;
+      }
+
+      .uuid-059c5704-bea7-4f20-b674-781af2117c08 {
+        font-size: 35px;
+      }
+
+      .uuid-8ad1489e-1ca4-4fae-8ed1-cc425057afdd {
+        fill: #0072bc;
+      }
+
+      .uuid-a4a29165-5e91-4f26-8cce-7f7918fe8b5d {
+        fill: #241f59;
+      }
+
+      .uuid-db0fbbed-0f3b-404d-a395-ec8d4a4c90ce {
+        stroke: #e6e7e8;
+      }
+
+      .uuid-db0fbbed-0f3b-404d-a395-ec8d4a4c90ce, .uuid-38e4f905-1ff5-4aca-b3c0-d0e6ac3a7959, .uuid-8a5fdf5e-8351-4fe5-aff9-a1f615ebc43c {
+        fill: none;
+      }
+
+      .uuid-d30ebc94-7414-4338-8396-cc38867772a3 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-c5ffb949-051d-47e2-a152-34e88b841ecb {
+        letter-spacing: -.05em;
+      }
+
+      .uuid-924c1f3d-76e0-4ea0-bcb2-f1cbda9ef5a3 {
+        fill: #283589;
+      }
+
+      .uuid-ebf5efa7-a986-46cd-aa61-df2d2cf38571 {
+        font-size: 16px;
+      }
+
+      .uuid-ebf5efa7-a986-46cd-aa61-df2d2cf38571, .uuid-77463f8a-121f-4f78-86e5-0eb8da0bf72f, .uuid-3403f749-3c55-43d7-8a2f-ea162cefe7c9, .uuid-f88f5138-9354-4035-af5f-343b42d7d302, .uuid-869db845-91c9-4952-8edf-eca28010ff5f, .uuid-a4533edb-d703-43f0-8f92-ebe4a413a27f, .uuid-f136e48a-2c10-47c5-93d1-ec6f7bd55db2 {
+        fill: #0089cf;
+      }
+
+      .uuid-d9423ec2-2625-4940-a05d-5f47a5882833 {
+        letter-spacing: .03em;
+      }
+
+      .uuid-d9423ec2-2625-4940-a05d-5f47a5882833, .uuid-f88f5138-9354-4035-af5f-343b42d7d302, .uuid-17d479df-43be-49ba-a735-7abc1360599e {
+        font-size: 28.51px;
+      }
+
+      .uuid-d9423ec2-2625-4940-a05d-5f47a5882833, .uuid-17d479df-43be-49ba-a735-7abc1360599e, .uuid-422a74c3-f48b-44b1-9ec2-8c8ece6c2672 {
+        fill: #ffcb05;
+      }
+
+      .uuid-54ab6983-695a-470d-9428-8f952da10566 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-84b3f087-0b81-4041-ac60-73f2279d318a {
+        letter-spacing: 0em;
+      }
+
+      .uuid-1aed1cdf-460b-44d5-b72f-01b08cdb8300 {
+        font-size: 14px;
+      }
+
+      .uuid-7f658f03-10dc-4a84-a31a-8dd427b5228d {
+        fill: #afaeae;
+      }
+
+      .uuid-95ecf7e3-fc32-425e-bf56-771f46382f8c {
+        fill: #f15a22;
+      }
+
+      .uuid-2e8f6a6a-d06b-4cd3-9dec-c7efd5215d6b {
+        letter-spacing: 0em;
+      }
+
+      .uuid-14fafb1d-002e-493c-a02b-d58c2402a97a {
+        letter-spacing: 0em;
+      }
+
+      .uuid-1c036200-91ad-4057-a997-757091666676 {
+        font-size: 11px;
+      }
+
+      .uuid-a0bfbf0e-769b-4ba4-b1cf-4e0e6ce992fb {
+        letter-spacing: 0em;
+      }
+
+      .uuid-1a5ca98d-1f3d-478f-858d-2d826fb6940f {
+        letter-spacing: 0em;
+      }
+
+      .uuid-e261159d-836a-4cf2-a146-4ccb67060335 {
+        fill: #ef4123;
+      }
+
+      .uuid-d65c22c8-a61d-4ee2-85d0-6f960677b3f3 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-3c0798b3-1ae5-4f97-a591-185c7bbd4404 {
+        fill: #6d6e71;
+      }
+
+      .uuid-f7349b8e-12fb-4f2b-bf07-69ebed7a4d17 {
+        fill: #ffc829;
+      }
+
+      .uuid-2da7a8a3-7a83-45a2-a985-989b08232470 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-31b10ba6-04e2-4ccc-8ff9-301158643a58 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-239356cb-412d-4510-8a3e-7b9d5fdd10b2 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-bb9432ac-be44-4380-86d8-1e3f643d2ff2 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-d3977f8f-22ba-48ca-a114-243afa19e788 {
+        fill: #00a6e9;
+      }
+
+      .uuid-944d7feb-6f7d-4ecf-b8b3-0b5103c19e3f {
+        letter-spacing: -.03em;
+      }
+
+      .uuid-50259a89-8773-4f72-848e-02656a9383e4 {
+        fill: #8b8e8c;
+      }
+
+      .uuid-ebb26339-fa6a-4f7e-978d-164fcf1b7d06 {
+        fill: #808285;
+      }
+
+      .uuid-38e4f905-1ff5-4aca-b3c0-d0e6ac3a7959, .uuid-394004f5-896f-4f8d-bf28-404925c1237e, .uuid-09835711-8135-44a6-8d34-c99eede212bb {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .uuid-38e4f905-1ff5-4aca-b3c0-d0e6ac3a7959, .uuid-09835711-8135-44a6-8d34-c99eede212bb {
+        stroke-width: .11px;
+      }
+
+      .uuid-77463f8a-121f-4f78-86e5-0eb8da0bf72f {
+        font-size: 15.67px;
+      }
+
+      .uuid-0d102f3f-5d5c-4e9b-a221-0fa78354a456 {
+        letter-spacing: -.04em;
+      }
+
+      .uuid-e8cc7402-8286-47ea-9ae4-88b49987c5b9 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-79413c59-2580-4c30-9e44-942d2f52fbf7 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-3403f749-3c55-43d7-8a2f-ea162cefe7c9 {
+        font-size: 12px;
+      }
+
+      .uuid-d319e3ab-c57c-4e3f-ae5a-da9fb96a1b38 {
+        clip-path: url(#uuid-db164882-21fe-4436-926a-bce975f13501);
+      }
+
+      .uuid-1d3a3d3b-42bf-47b5-a013-330b3a48e350, .uuid-4e8fcec7-f241-4adc-b849-fda37b886ff6 {
+        fill: #231f20;
+      }
+
+      .uuid-1d3a3d3b-42bf-47b5-a013-330b3a48e350, .uuid-a4533edb-d703-43f0-8f92-ebe4a413a27f {
+        font-size: 10px;
+      }
+
+      .uuid-c1957cb1-0f42-4f7c-bfd8-3a024e72c271 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-dc4fbe24-0f9f-4f02-ae21-2ef9b05a074f {
+        fill: url(#uuid-fc634169-4506-4cfc-8bbb-3b513efb41d0);
+      }
+
+      .uuid-732e61d6-1415-4e14-baf6-194cd5a5cb20 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-d9746f1e-cad2-4ffd-8c72-95179a9a112e {
+        fill: #f7941d;
+      }
+
+      .uuid-4dbe7a82-f5b5-499e-a190-0e19030d6702 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-b163b49f-8877-4e7d-8b4b-abdba6c7620f {
+        letter-spacing: 0em;
+      }
+
+      .uuid-09107344-fb80-4c5a-8cff-b92e6876236b {
+        fill: #676869;
+      }
+
+      .uuid-68652775-7db9-423b-ba2f-451409441e0a {
+        fill: #ef4235;
+      }
+
+      .uuid-7117b67f-78fc-42e0-98f5-87f4fc9d4df1 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-7216d817-1a0a-4c97-b3a5-5c18b3023321 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-47c4d1c5-0eaf-4561-84d4-edf24bdb8bb1 {
+        letter-spacing: -.05em;
+      }
+
+      .uuid-dad9e4fb-7be7-4944-ac4d-83641b61bc5c {
+        letter-spacing: 0em;
+      }
+
+      .uuid-394004f5-896f-4f8d-bf28-404925c1237e {
+        stroke-width: .45px;
+      }
+
+      .uuid-09835711-8135-44a6-8d34-c99eede212bb {
+        fill: #535655;
+      }
+
+      .uuid-1c48fa16-12fb-4c51-bdb7-5259611d7783 {
+        fill: #005baa;
+      }
+
+      .uuid-4f6be78c-8b89-463b-bc60-dc618f253a42 {
+        clip-path: url(#uuid-fb4085f2-a9f2-4144-bcfd-d6bdab5f2bbb);
+      }
+
+      .uuid-86452ac2-25fa-46d7-a989-a0ef7f30f21d {
+        letter-spacing: 0em;
+      }
+
+      .uuid-991686a4-d808-4f07-a147-f14374b56133 {
+        stroke-width: 3.87px;
+      }
+
+      .uuid-c42816b5-4b93-4847-8931-23d462b643d6 {
+        fill: #ee3124;
+      }
+
+      .uuid-b727cb8d-ffa3-4811-9371-0821038fea16 {
+        letter-spacing: 0em;
+      }
+
+      .uuid-6ed2bccc-a31d-46b8-8299-ae292036151a {
+        letter-spacing: 0em;
+      }
+
+      .uuid-faa78fa5-369a-4656-9c21-a7bb0dd4cdba {
+        fill: #010101;
+      }
+
+      .uuid-f4df4860-6136-4e5f-a441-db956ae361da {
+        letter-spacing: 0em;
+      }
+
+      .uuid-e1c94b15-ac04-44f8-9322-ce19bf7a443b {
+        fill: #58595b;
+      }
+
+      .uuid-6963ca54-c0e0-487c-85ee-d9f6361c4564 {
+        fill: #414042;
+      }
+
+      .uuid-f136e48a-2c10-47c5-93d1-ec6f7bd55db2 {
+        font-size: 8px;
+      }
+
+
+/*pag 2*/
+      .Arqueado:_x0020_verde{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:1;}
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#010101;}
+	.st2{fill:none;}
+	.st3{fill:url(#SVGID_00000005949157259155055510000012654055795220627330_);}
+	.st4{fill:url(#SVGID_00000032626198861811326680000006222218952933133471_);}
+	.st5{fill:url(#SVGID_00000045592189475519129100000001995154405298717373_);}
+	.st6{fill:url(#SVGID_00000163775308417111975350000016789896561991212216_);}
+	.st7{fill:#005BAA;}
+	.st8{fill:#0072BC;}
+	.st9{fill:#283589;}
+	.st10{fill:#0089CF;}
+	.st11{fill:#241F59;}
+	.st12{fill:#00A6E9;}
+	.st13{fill:#F15A22;}
+	.st14{fill:#F7941D;}
+	.st15{fill:#EE3124;}
+	.st16{fill:#FFCB05;}
+	.st17{fill:#EF4123;}
+	.st18{fill:#FFFFFF;stroke:#A7A9AC;stroke-width:3.0559;}
+	.st19{fill:#FFFFFF;stroke:#A7A9AC;stroke-width:3.8719;}
+	.st20{fill:none;stroke:#E6E7E8;}
+	.st21{fill:url(#SVGID_00000111152971607988739930000005447524633871060646_);}
+	.st22{fill:url(#SVGID_00000011005056466098131940000003735643988749662344_);}
+	.st23{fill:url(#SVGID_00000100369804229841256130000004551896192254916509_);}
+	.st24{fill:url(#SVGID_00000095327836289410392490000007359275205731809983_);}
+	.st25{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+}
+	.st26{font-size:26.8258px;}
+	.st27{font-size:18px;}
+	.st28{fill:#FFFFFF;stroke:#A7A9AC;stroke-width:3.0542;}
+	.st29{fill:#A7A9AC;}
+	.st30{font-size:14px;}
+	.st31{font-size:28.5116px;}
+	.st32{font-size:15.6686px;}
+	.st33{font-size:35.6872px;}
+	.st34{font-size:28.0195px;}
+	.st35{font-size:11.239px;}
+	.st36{font-size:11.4038px;}
+	.st37{clip-path:url(#SVGID_00000015343846527146050310000000621184784995917185_);fill:#EF4235;}
+	.st38{clip-path:url(#SVGID_00000015343846527146050310000000621184784995917185_);}
+	.st39{fill:#FFFFFF;stroke:#000000;stroke-width:0.4545;stroke-miterlimit:10;}
+	.st40{fill:#AFAEAE;}
+	.st41{fill:#535655;stroke:#000000;stroke-width:0.1136;stroke-miterlimit:10;}
+	.st42{fill:none;stroke:#000000;stroke-width:0.1136;stroke-miterlimit:10;}
+	.st43{fill:#8B8E8C;}
+	.st44{fill:#676869;}
+	.st45{fill:#EF4235;}
+	.st46{fill:#FFC829;}
+	.st47{clip-path:url(#SVGID_00000133511191841157914010000005025041503589635515_);}
+	.st48{fill:#58595B;}
+	.st49{fill:#6D6E71;}
+	.st50{fill:#808285;}
+	.st51{fill:#414042;}
+	.st52{clip-path:url(#SVGID_00000015343846527146050310000000621184784995917185_);fill:none;}
+	.st53{fill:#474443;}
+	.st54{fill:#56BAEA;}
+	.st55{fill:#1D1C57;}
+	.st56{fill:#9696CA;}
+	.st57{fill:#071F35;}
+	.st58{fill:#56A1D8;}
+	.st59{opacity:0.95;fill:url(#SVGID_00000158718254287907308640000003163994658962247587_);}
+	.st60{opacity:0.1;}
+	.st61{fill:url(#SVGID_00000000919668013235689800000005633055404911022210_);}
+	.st62{fill:url(#SVGID_00000026134558574175614490000005095428941758720665_);}
+	.st63{opacity:0.95;fill:url(#SVGID_00000001652141929721384720000018279111954631179165_);}
+	.st64{fill:url(#SVGID_00000049907586829777661720000016395409937137668028_);}
+	.st65{fill:url(#SVGID_00000051357275450380286830000004589853208508139711_);}
+	.st66{opacity:0.95;fill:url(#SVGID_00000163755653029840438690000015019987001107695745_);}
+	.st67{fill:url(#SVGID_00000048502504241951989710000006356790470148115388_);}
+	.st68{fill:url(#SVGID_00000144330183808157929090000003986667176891498413_);}
+	.st69{fill:#F17F21;}
+	.st70{fill:#333333;}
+	.st71{fill:#1E799F;}
+	.st72{fill:#624C49;}
+	.st73{fill:#F2D5B3;}
+	.st74{fill:#198BC3;}
+	.st75{fill:#32B8E7;}
+	.st76{fill:#FFCF5A;}
+	.st77{fill:#0F1B30;}
+	.st78{fill:#E6B88B;}
+	.st79{fill:#95715C;}
